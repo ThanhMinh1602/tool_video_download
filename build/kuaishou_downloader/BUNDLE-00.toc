@@ -1,0 +1,3 @@
+([('kuaishou_downloader',
+   '/Users/nguyenthanhminh/PycharmProjects/PythonProject/dist/kuaishou_downloader',
+   'EXECUTABLE')],)

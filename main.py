@@ -6,7 +6,7 @@ def parse_profile_url(url):
     """Phân tích URL để lấy principalId và tạo api_url"""
     parsed_url = urlparse(url)
     principal_id = parsed_url.path.split('/')[-1]  # Lấy principalId từ path
-    api_url = f"https://live.kuaishou.com/live_api/profile/public?count=50&pcursor=&principalId={principal_id}&hasMore=true"
+    api_url = f"https://live.kuaishou.com/live_api/profile/public?count=9999999999999&pcursor=&principalId={principal_id}&hasMore=true"
     return api_url
 
 def download_videos(profile_url):
